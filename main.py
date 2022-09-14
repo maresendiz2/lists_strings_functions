@@ -122,6 +122,7 @@ newList.append("Jose")
 newList.append("James")
 print(newList)
 print(newList.sort())
+print(newList)
 print(len(newList))
 # birthday_guests[0] ="charlie"
 
@@ -132,14 +133,19 @@ print(len(newList))
 
 
 #.remove(), .append(), sort(), .len() are list functions
-
+list = ["1", "2,", "a", "b", "3", "4", "c", "d" ]
+print(list)
 
 # In[3]:
 
 
 #also we can define N dimensional list not just 1 dimensional
 #1 dimensional means only one item per comma
-
+avengers = ["hawkeye", "hulk", "iron man", "black panther", "captAmer"]
+multiDimen = [[3,5], [7,6], [6,3], [8,9]]
+print(multiDimen[0][0])
+#multidimentsional arrays are more than just
+# a single list of items
 
 # In[ ]:
 
