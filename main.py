@@ -165,9 +165,21 @@ print(multiDimen[0][0])
 
 # In[ ]:
 
-
-
-
+avengers = ["hawkeye", "hulk", "iron man", "black panther", "captAmer"]
+guardiansOfGalaxy = ["Drax", "rocket", "Groot", "starlord", "gamora"]
+#join the lists in a new list
+mcu = avengers + guardiansOfGalaxy
+print(mcu)
+#add two more characters
+mcu.append("thor")
+mcu.append("spiderman")
+print(mcu)
+#reverse the list
+mcu.reverse()
+print(mcu)
+mcu.remove("iron man")
+print(mcu)
+print(mcu.index("Drax"))
 
 
 # #Tuples
